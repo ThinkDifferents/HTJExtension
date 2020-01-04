@@ -12,6 +12,7 @@
 
 #import "UIGestureRecognizer+BlocksKit.h"
 #import "UIView+BlocksKit.h"
+#import "UIView+Extension.h"
 
 FOUNDATION_EXPORT double HTJExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTJExtensionVersionString[];
