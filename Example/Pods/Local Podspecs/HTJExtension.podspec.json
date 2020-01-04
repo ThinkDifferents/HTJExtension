@@ -1,0 +1,22 @@
+{
+  "name": "HTJExtension",
+  "version": "0.1.0",
+  "summary": "A short description of HTJExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ThinkDifferents/HTJExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ThinkDifferents": "m18534353727@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ThinkDifferents/HTJExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTJExtension/Classes/**/*"
+}

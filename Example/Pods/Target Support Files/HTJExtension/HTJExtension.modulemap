@@ -1,0 +1,6 @@
+framework module HTJExtension {
+  umbrella header "HTJExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
