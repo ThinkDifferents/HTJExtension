@@ -279,77 +279,77 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 
 
 -(UIView *(^)(CGFloat))e__top {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_top){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_top = e_top;
         return self;
     };
 }
 
 -(UIView *(^)(CGFloat))e__bottom {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_bottom){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_bottom = e_bottom;
         return self;
     };
 }
 -(UIView *(^)(CGFloat))e_flexToBottom {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_flexToBottom){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_height += self.e_bottom - e_flexToBottom;
         return self;
     };
 }
 -(UIView *(^)(CGFloat))e__left {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_left){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_left = e_left;
         return self;
     };
 }
 
 -(UIView *(^)(CGFloat))e__right {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_right){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_right = e_right;
         return self;
     };
 }
 -(UIView *(^)(CGFloat))e_flexToRight {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_flexToRight){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_width += self.e_right - e_flexToRight;
         return self;
     };
 }
 
 -(UIView *(^)(CGFloat))e__width {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_width){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_width = e_width;
         return self;
     };
 }
 -(UIView *(^)(CGFloat))e__height {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat e_height){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         self.e_height = e_height;
         return self;
     };
 }
 
 - (UIView *(^)(CGFloat))e__centerX {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat x){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         NSAssert(self.e_width, @"请先设置宽");
         self.e_centerX = x;
         return self;
@@ -357,9 +357,9 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 }
 
 - (UIView *(^)(CGFloat))e__centerY {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat y){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         NSAssert(self.e_height, @"请先设置高");
         self.e_centerY = y;
         return self;
@@ -368,9 +368,9 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 
 
 -(UIView *(^)(void))e_center {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^{
-        @strongify(self);
+        __strong typeof(self) self = wself;
         if (self.superview) {
             self.e_centerX = self.superview.e_width / 2;
             self.e_centerY = self.superview.e_height / 2;
@@ -380,9 +380,9 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 }
 
 -(UIView *(^)(void))e_fill {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^{
-        @strongify(self);
+        __strong typeof(self) self = wself;
         if (self.superview) {
             self.e_left = self.e_top = 0;
             self.e_width = self.superview.e_width;
@@ -393,17 +393,17 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 }
 
 -(UIView *(^)(void))e_sizeToFit {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^{
-        @strongify(self);
+        __strong typeof(self) self = wself;
         [self sizeToFit];
         return self;
     };
 }
 -(UIView *(^)(CGFloat w, CGFloat h))e_sizeToFitThan {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat w, CGFloat h){
-        @strongify(self);
+        __strong typeof(self) self = wself;
         [self sizeToFit];
         if (self.e_width < w)
             self.e_width = w;
@@ -414,9 +414,9 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 }
 
 - (UIView * (^)(CGFloat space))e_hstack {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat space) {
-        @strongify(self);
+        __strong typeof(self) self = wself;
         if (self.e_sibling) {
             self.e__centerY(self.e_sibling.e_centerY).e__left(self.e_sibling.e_maxX+space);
         }
@@ -425,9 +425,9 @@ static void *kUIViewLayoutMethodPropertyRightGap    = &kUIViewLayoutMethodProper
 }
 
 - (UIView * (^)(CGFloat space))e_vstack {
-    @weakify(self);
+    __weak typeof(self) wself = self;
     return ^(CGFloat space) {
-        @strongify(self);
+        __strong typeof(self) self = wself;
         if (self.e_sibling) {
             self.e__centerX(self.e_sibling.e_centerX).e__top(self.e_sibling.e_maxY+space);
         }
