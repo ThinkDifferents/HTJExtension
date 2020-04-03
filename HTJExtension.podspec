@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTJExtension'
-  s.version          = '1.4'
+  s.version          = '1.5'
   s.summary          = 'HTJ Extension'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HTJExtension/Classes/*'
+  s.source_files = 'HTJExtension/Classes/**/*'
   
   # s.resource_bundles = {
   #   'HTJExtension' => ['HTJExtension/Assets/*.png']
