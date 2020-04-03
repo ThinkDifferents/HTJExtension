@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.6)
-  - HTJExtension (0.1.0)
+  - HTJExtension (1.4)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -9,7 +9,7 @@ DEPENDENCIES:
   - Specta
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Expecta
     - Specta
 
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  HTJExtension: aa2c1791d54cdfb4b2574baede58fb3cfda0cc01
+  HTJExtension: 08f0bd87d8c81e16935e9f79c53181ec82814da2
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 94f2698473e54652ed7eca26c0cabf612e953be5
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.0.beta.2
