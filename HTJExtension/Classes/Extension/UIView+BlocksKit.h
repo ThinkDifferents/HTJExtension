@@ -18,7 +18,6 @@
 - (void)sw_whenTappedView:(void (^)(UIView *view))block;
 - (void)sw_whenDoubleTapped:(void (^)(void))block;
 - (void)sw_eachSubview:(void (^)(UIView *subview))block;
-
 - (void)sw_whenLongTapped:(void (^)(void))block;
 
 @end

@@ -256,6 +256,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ThinkDifferents;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = KDZ83LQ5T4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -515,6 +518,7 @@
 			baseConfigurationReference = 8C07322327FB33D35A816719 /* Pods-HTJExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KDZ83LQ5T4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTJExtension/HTJExtension-Prefix.pch";
 				INFOPLIST_FILE = "HTJExtension/HTJExtension-Info.plist";
@@ -531,6 +535,7 @@
 			baseConfigurationReference = 8E7C706EE92D0A5F599B484E /* Pods-HTJExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KDZ83LQ5T4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTJExtension/HTJExtension-Prefix.pch";
 				INFOPLIST_FILE = "HTJExtension/HTJExtension-Info.plist";

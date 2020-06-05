@@ -54,7 +54,7 @@
 
 - (void)sw_whenDoubleTapped:(void (^)(void))block
 {
-    [self sw_whenTouches:2 tapped:1 handler:block];
+    [self sw_whenTouches:1 tapped:2 handler:block];
 }
 
 - (void)sw_eachSubview:(void (^)(UIView *subview))block

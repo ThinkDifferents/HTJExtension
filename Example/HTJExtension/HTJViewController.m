@@ -7,6 +7,7 @@
 //
 
 #import "HTJViewController.h"
+#import <UIView+BlocksKit.h>
 
 @interface HTJViewController ()
 
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.view sw_whenTapped:^{
+        NSLog(@"单机");
+    }];
+    [self.view sw_whenDoubleTapped:^{
+        
+        NSLog(@"双机");
+    }];
 }
 
 - (void)didReceiveMemoryWarning
