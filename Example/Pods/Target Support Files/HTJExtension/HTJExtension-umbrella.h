@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "bef_effect_ai_api.h"
+#import "bef_effect_ai_public_define.h"
+#import "bef_effect_ai_version.h"
+#import "bef_effect_ai_yuv_process.h"
+#import "byted_effect.h"
+#import "RenderMsgDelegate.h"
 #import "UIGestureRecognizer+BlocksKit.h"
 #import "UIView+BlocksKit.h"
 

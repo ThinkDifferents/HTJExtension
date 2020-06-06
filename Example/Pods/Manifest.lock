@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.6)
-  - HTJExtension (1.5)
+  - HTJExtension (2.1)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  HTJExtension: 221623e7349fcc635840a138d0b048a98d8e2a70
+  HTJExtension: 797d0217884d399fa7787ccc3f42e50d653eb15c
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 94f2698473e54652ed7eca26c0cabf612e953be5

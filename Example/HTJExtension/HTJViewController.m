@@ -8,6 +8,7 @@
 
 #import "HTJViewController.h"
 #import <UIView+BlocksKit.h>
+#import <byted_effect.h>
 
 @interface HTJViewController ()
 
