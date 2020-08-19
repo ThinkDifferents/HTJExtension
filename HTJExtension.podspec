@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTJExtension'
-  s.version          = '2.1'
-  s.summary          = 'HTJ Extension'
+  s.version          = '2.2'
+  s.summary          = 'HTJ Extension 2.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  移除诸葛,修改blockkit里面的双击事件,添加字节lib库
+  HTJ Extension 2.2 This description is used to generate tags and improve search results.
                        DESC
 
   s.homepage         = 'https://github.com/ThinkDifferents/HTJExtension.git'
