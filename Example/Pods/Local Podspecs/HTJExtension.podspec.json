@@ -1,8 +1,8 @@
 {
   "name": "HTJExtension",
-  "version": "2.3",
+  "version": "3.0",
   "summary": "HTJ Extension",
-  "description": "移除字节库,添加渐变按钮,添加渐变view,添加textview占位图,label行间距",
+  "description": "添加AF,FD,MB,Masonry,SD,MJ,RAC,LEE,常亮类,HUD分类,链式AF,HUD。",
   "homepage": "https://github.com/ThinkDifferents/HTJExtension.git",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ThinkDifferents/HTJExtension.git",
-    "tag": "2.3"
+    "tag": "3.0"
   },
   "platforms": {
     "ios": "8.0"
