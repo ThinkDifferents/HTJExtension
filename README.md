@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'HTJExtension'
 ```
 
+## pod version
+3.1 包含常用第三方,常用分类,常量文件,工具类;
+2.8 AF依赖3.xx,有错误不建议使用;
+2.3 分类版本,UI相关分类;
+... 低版本不建议使用
+
 ## Author
 
 ThinkDifferents, m18534353727@163.com
