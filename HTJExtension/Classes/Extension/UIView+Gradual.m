@@ -80,4 +80,13 @@ static char *gradientLayerKey;
     }
 }
 
+- (void)setRadius:(CGFloat)radius {
+    self.layer.cornerRadius = radius;
+    self.layer.masksToBounds = true;
+}
+
+- (CGFloat)radius {
+    return self.layer.cornerRadius;
+}
+
 @end

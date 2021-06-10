@@ -23,6 +23,9 @@ typedef NS_ENUM(NSUInteger, UIViewGradientDirect) {
 /// 渐变背景色
 @property (nonatomic, strong) NSArray <UIColor *> *gradientBackgroundColors;
 
+/// 圆角
+@property (nonatomic) CGFloat radius;
+
 @end
 
 NS_ASSUME_NONNULL_END

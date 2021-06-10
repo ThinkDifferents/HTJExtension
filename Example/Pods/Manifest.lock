@@ -1,27 +1,71 @@
 PODS:
-  - Expecta (1.0.6)
-  - HTJExtension (2.1)
-  - Specta (1.0.7)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - HTJExtension (2.3):
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - LEEAlert
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+  - LEEAlert (1.4.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.4)
+  - MJRefresh (3.5.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
 
 DEPENDENCIES:
-  - Expecta
   - HTJExtension (from `../`)
-  - Specta
 
 SPEC REPOS:
   trunk:
-    - Expecta
-    - Specta
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - LEEAlert
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
 
 EXTERNAL SOURCES:
   HTJExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  HTJExtension: 797d0217884d399fa7787ccc3f42e50d653eb15c
-  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HTJExtension: fcec71d9842d901b52fd9042c4016ffb6da2f6e4
+  LEEAlert: 396bddbd3e8c5c735774c374d0c22b4fe3c48882
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
 
-PODFILE CHECKSUM: 94f2698473e54652ed7eca26c0cabf612e953be5
+PODFILE CHECKSUM: 92cf972ded20acf1c619e4d3c779954a2f8a7332
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0.rc.1

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		155C8706EA8645B910E71C5E /* Pods_HTJExtension_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E6996A3A4F0BFD0A6858C8 /* Pods_HTJExtension_Tests.framework */; };
 		44BAFDAD07ADE9831944C857 /* Pods_HTJExtension_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C46063D441F81F4959062D /* Pods_HTJExtension_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,10 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034931A9D46ED7553D96BAB7 /* Pods-HTJExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTJExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-HTJExtension_Tests/Pods-HTJExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0D4BA8819960C96A45A4A9F3 /* HTJExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTJExtension.podspec; path = ../HTJExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35C46063D441F81F4959062D /* Pods_HTJExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTJExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51E6996A3A4F0BFD0A6858C8 /* Pods_HTJExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTJExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DA1199411AEB15AEB82EEA /* Pods-HTJExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTJExtension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTJExtension_Tests/Pods-HTJExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HTJExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTJExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,7 +65,6 @@
 		8E7C706EE92D0A5F599B484E /* Pods-HTJExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTJExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-HTJExtension_Example/Pods-HTJExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4229DB073F90336C0C59879 /* Pods-HTJExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTJExtension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTJExtension_Example/Pods-HTJExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C6F6D1921E8E11F1F107E2AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D965428604315C1F106B2718 /* Pods-HTJExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTJExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HTJExtension_Tests/Pods-HTJExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA309C4533F12336276928DA /* Pods-HTJExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTJExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTJExtension_Tests/Pods-HTJExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE5E4D7A4B853C34031C963 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +88,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				155C8706EA8645B910E71C5E /* Pods_HTJExtension_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +99,6 @@
 			children = (
 				8C07322327FB33D35A816719 /* Pods-HTJExtension_Example.debug.xcconfig */,
 				8E7C706EE92D0A5F599B484E /* Pods-HTJExtension_Example.release.xcconfig */,
-				D965428604315C1F106B2718 /* Pods-HTJExtension_Tests.debug.xcconfig */,
-				034931A9D46ED7553D96BAB7 /* Pods-HTJExtension_Tests.release.xcconfig */,
 				B4229DB073F90336C0C59879 /* Pods-HTJExtension_Example.debug.xcconfig */,
 				8D02B7D89434D48077B629E2 /* Pods-HTJExtension_Example.release.xcconfig */,
 				EA309C4533F12336276928DA /* Pods-HTJExtension_Tests.debug.xcconfig */,
@@ -143,7 +136,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				35C46063D441F81F4959062D /* Pods_HTJExtension_Example.framework */,
-				51E6996A3A4F0BFD0A6858C8 /* Pods_HTJExtension_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,11 +222,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HTJExtension_Tests" */;
 			buildPhases = (
-				8136E7642BD5CD8B5A05AD5C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				7C48E50C529CB4E9D6841EE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +247,7 @@
 				ORGANIZATIONNAME = ThinkDifferents;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = KDZ83LQ5T4;
+						DevelopmentTeam = 5M9U5444PH;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -332,53 +322,33 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HTJExtension_Example/Pods-HTJExtension_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/HTJExtension/HTJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/LEEAlert/LEEAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LEEAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTJExtension_Example/Pods-HTJExtension_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C48E50C529CB4E9D6841EE4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HTJExtension_Tests/Pods-HTJExtension_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTJExtension_Tests/Pods-HTJExtension_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8136E7642BD5CD8B5A05AD5C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HTJExtension_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -518,7 +488,7 @@
 			baseConfigurationReference = 8C07322327FB33D35A816719 /* Pods-HTJExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KDZ83LQ5T4;
+				DEVELOPMENT_TEAM = 5M9U5444PH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTJExtension/HTJExtension-Prefix.pch";
 				INFOPLIST_FILE = "HTJExtension/HTJExtension-Info.plist";
@@ -535,7 +505,7 @@
 			baseConfigurationReference = 8E7C706EE92D0A5F599B484E /* Pods-HTJExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KDZ83LQ5T4;
+				DEVELOPMENT_TEAM = 5M9U5444PH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTJExtension/HTJExtension-Prefix.pch";
 				INFOPLIST_FILE = "HTJExtension/HTJExtension-Info.plist";
@@ -549,7 +519,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D965428604315C1F106B2718 /* Pods-HTJExtension_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -574,7 +543,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 034931A9D46ED7553D96BAB7 /* Pods-HTJExtension_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

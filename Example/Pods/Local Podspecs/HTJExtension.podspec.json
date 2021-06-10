@@ -1,8 +1,8 @@
 {
   "name": "HTJExtension",
-  "version": "2.1",
+  "version": "2.3",
   "summary": "HTJ Extension",
-  "description": "移除诸葛,修改blockkit里面的双击事件,添加字节lib库",
+  "description": "移除字节库,添加渐变按钮,添加渐变view,添加textview占位图,label行间距",
   "homepage": "https://github.com/ThinkDifferents/HTJExtension.git",
   "license": {
     "type": "MIT",
@@ -13,10 +13,42 @@
   },
   "source": {
     "git": "https://github.com/ThinkDifferents/HTJExtension.git",
-    "tag": "2.1"
+    "tag": "2.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HTJExtension/Classes/**/*"
+  "source_files": "HTJExtension/Classes/**/*",
+  "resources": [
+    "HTJExtension/Assets/**/*.xcassets"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "FDFullscreenPopGesture": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "LEEAlert": [
+
+    ]
+  }
 }

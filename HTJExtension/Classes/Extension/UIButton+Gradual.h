@@ -30,4 +30,29 @@ typedef NS_ENUM(NSUInteger, UIButtonGradientDirect) {
 
 @end
 
+@interface UIButton (Extension)
+
+/** 显示按钮菊花 */
+- (void) showIndicator;
+
+/** 隐藏按钮菊花 */
+- (void) hideIndicator;
+
+/** 将按钮布局改为上下结构 spacing : 间距 */
+- (void)middleAlignButtonWithSpacing:(CGFloat)spacing;
+
+/** 设置按钮额外热区 */
+@property (nonatomic, assign) UIEdgeInsets touchAreaInsets;
+
+/** 按钮点击后，禁用按钮并在按钮上显示 文字 和 加载动画 */
+- (void)beginSubmitting:(NSString *)title;
+
+/** 按钮点击后，恢复按钮点击前的状态 */
+- (void)endSubmitting;
+
+/** 按钮是否正在提交中 */
+@property(nonatomic, readonly, getter=isSubmitting) NSNumber *submitting;
+
+@end
+
 NS_ASSUME_NONNULL_END
