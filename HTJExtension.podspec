@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTJExtension'
-  s.version          = '2.9'
+  s.version          = '2.8'
   s.summary          = 'HTJ Extension'
 
   s.description      = <<-DESC

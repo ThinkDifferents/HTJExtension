@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - FDFullscreenPopGesture (1.1)
-  - HTJExtension (3.0):
+  - HTJExtension (2.8):
     - AFNetworking
     - FDFullscreenPopGesture
     - LEEAlert
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  HTJExtension: 228c3254bd58d2faaae8a94dcfacfa3450199b4e
+  HTJExtension: cccd37e289160c3a020df5f3658ea76556408c9a
   LEEAlert: 396bddbd3e8c5c735774c374d0c22b4fe3c48882
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406

@@ -6,6 +6,7 @@
 //  Copyright © 2019 HTJ. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 
 @interface MBProgressHUD (HTJ)

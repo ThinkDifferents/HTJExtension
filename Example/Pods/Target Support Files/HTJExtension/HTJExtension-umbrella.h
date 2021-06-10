@@ -21,6 +21,7 @@
 #import "UITextView+PlaceHolder.h"
 #import "UIView+BlocksKit.h"
 #import "UIView+Gradual.h"
+#import "Header.h"
 
 FOUNDATION_EXPORT double HTJExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTJExtensionVersionString[];
