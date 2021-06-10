@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTJExtension'
-  s.version          = '3.0'
+  s.version          = '3.1'
   s.summary          = 'HTJ Extension'
 
   s.description      = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking'#, '~> 4.0.1'
+  s.dependency 'AFNetworking'#, '4.0.1'
   s.dependency 'FDFullscreenPopGesture'
   s.dependency 'MBProgressHUD'
   s.dependency 'Masonry'

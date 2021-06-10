@@ -180,26 +180,38 @@
 }
 
 - (NSURLSessionDataTask *)getRequestValue {
-    
     if (!self.urlString || !self.urlString.length) {
         NSLog(@"error::url is nil");
         return nil;
     }
+    NSMutableURLRequest *request = [self.httpManager.requestSerializer requestWithMethod:@"GET" URLString:self.urlString parameters:self.paramsDictionary error:nil];
+    NSLog(@"log::%f", request.timeoutInterval);
+    if (self.headerDictionary) {
+        for (NSString *headerField in self.headerDictionary.keyEnumerator) {
+            [request setValue:self.headerDictionary[headerField] forHTTPHeaderField:headerField];
+        }
+    }
+    if (self.bodyData) {
+        [request setHTTPBody:self.bodyData];
+    }
     __weak typeof(self) wself = self;
-    //  headers:self.headerDictionary
-    NSURLSessionDataTask *task = [self.httpManager GET:self.urlString parameters:self.paramsDictionary progress:^(NSProgress * _Nonnull downloadProgress) {
+    __block NSURLSessionDataTask *dataTask = nil;
+    dataTask = [self.httpManager dataTaskWithRequest:request uploadProgress:^(NSProgress * _Nonnull uploadProgress) {
+        
+        [wself dealWithUploadProgress:uploadProgress];
+        
+    } downloadProgress:^(NSProgress * _Nonnull downloadProgress) {
         
         [wself dealWithProgress:downloadProgress];
         
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
-        [wself dealWithSuccessResponse:task response:responseObject requestType:0];
-        
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
-        [wself dealWithError:task error:error requestType:0];
+    } completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+        if (error) {
+            [wself dealWithError:dataTask error:error requestType:1];
+        } else {
+            [wself dealWithSuccessResponse:dataTask response:responseObject requestType:1];
+        }
     }];
-    return task;
+    return dataTask;
 }
 
 - (NSURLSessionDataTask *)postRequestValue {
