@@ -7,7 +7,7 @@
 //
 
 #import "HTJViewController.h"
-#import <Header.h>
+//#import <Header.h>
 
 @interface HTJViewController ()
 
@@ -18,15 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view sw_whenTapped:^{
-        NSLog(@"单机");
-        
-        [MBProgressHUD showSuccess:@"success"];
-    }];
-    [self.view sw_whenDoubleTapped:^{
-        
-        NSLog(@"双机");
-    }];
+//    [self.view sw_whenTapped:^{
+//        NSLog(@"单机");
+//        
+//        [MBProgressHUD showSuccess:@"success"];
+//    }];
+//    [self.view sw_whenDoubleTapped:^{
+//        
+//        NSLog(@"双机");
+//    }];
     
     
 }
