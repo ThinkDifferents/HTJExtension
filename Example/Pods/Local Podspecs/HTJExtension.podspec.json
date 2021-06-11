@@ -1,6 +1,6 @@
 {
   "name": "HTJExtension",
-  "version": "3.1",
+  "version": "3.2",
   "summary": "HTJ Extension",
   "description": "添加AF,FD,MB,Masonry,SD,MJ,RAC,LEE,常亮类,HUD分类,链式AF,HUD。",
   "homepage": "https://github.com/ThinkDifferents/HTJExtension.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ThinkDifferents/HTJExtension.git",
-    "tag": "3.1"
+    "tag": "3.2"
   },
   "platforms": {
     "ios": "8.0"
